@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class Solution {
+class Solution {
     public int solution(String s) {
         // 영단어 대응 표를 HashMap으로 생성
         HashMap<String, String> wordToNumber = new HashMap<>();
