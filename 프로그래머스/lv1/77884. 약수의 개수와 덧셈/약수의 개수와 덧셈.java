@@ -1,11 +1,11 @@
-public class Solution {
+class Solution {
     public int solution(int left, int right) {
         int sum = 0;
         for (int num = left; num <= right; num++) {
             int divisorCount = countDivisors(num);
             if (divisorCount % 2 == 0) {
                 sum += num;
-            } else {
+            } else {   
                 sum -= num;
             }
         }
