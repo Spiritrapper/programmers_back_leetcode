@@ -1,4 +1,4 @@
-class Solution {
+class 두정수사이의합 {
     public long solution(int a, int b) {
         
         
@@ -15,5 +15,11 @@ class Solution {
         
         
         return sum;
+    }
+
+    public static void main(String[] args) {
+        
+        두정수사이의합 a = new 두정수사이의합();
+        System.out.println(a.solution(1, 10));
     }
 }

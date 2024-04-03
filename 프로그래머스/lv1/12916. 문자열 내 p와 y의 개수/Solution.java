@@ -1,8 +1,7 @@
 class Solution {
-
 	    boolean solution(String s) {
 	        boolean answer = true;
-	        String [] array =s.split("");
+	        String [] array =s.split(""); //접근이 쉽다//?
 	        int pcnt = 0;
 	        int ycnt = 0;
 	        for(int i =0; i< array.length; i++){
