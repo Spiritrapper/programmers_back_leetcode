@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class Solution_비밀지도 {
     public static void main(String[] args) {
         int n1 = 5;
         int[] arr1_1 = {9, 20, 28, 18, 11};

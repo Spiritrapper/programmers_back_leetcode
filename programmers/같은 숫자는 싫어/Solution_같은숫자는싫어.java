@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Solution {
+public class Solution_같은숫자는싫어 {
     public int[] solution(int[] arr) {
         List<Integer> result = new ArrayList<>();
         

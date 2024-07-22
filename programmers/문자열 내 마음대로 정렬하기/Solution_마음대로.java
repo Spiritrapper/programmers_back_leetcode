@@ -3,7 +3,7 @@
 import java.util.Arrays;
 import java.util.Comparator;
 
-class Solution {
+class Solution_마음대로 {
     public String[] solution(String[] strings, int n) {
         // 문자열 배열을 정렬합니다.
         Arrays.sort(strings, new Comparator<String>() {
@@ -24,7 +24,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution_마음대로 solution = new Solution_마음대로();
 
         // 예시 입력
         String[] strings1 = {"sun", "bed", "car"};
