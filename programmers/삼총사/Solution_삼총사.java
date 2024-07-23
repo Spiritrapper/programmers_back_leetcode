@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class Solution_삼총사 {
     public int solution(int[] number) {
         int[] result = {0}; // 결과를 저장할 배열, 배열의 첫 번째 요소를 0으로 초기화
         findCombinations(number, 0, 0, 0, result); // 조합을 찾는 재귀 함수 호출
