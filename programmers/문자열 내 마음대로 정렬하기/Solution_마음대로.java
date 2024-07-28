@@ -39,4 +39,9 @@ class Solution_마음대로 {
         String[] result2 = solution.solution(strings2, n2);
         System.out.println(Arrays.toString(result2)); // ["abcd", "abce", "cdx"]
     }
+
+    public char[] solution(int[][] sizes1) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'solution'");
+    }
 }
